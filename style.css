@@ -1,0 +1,129 @@
+body {
+    background-image: url(4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;  
+    background-color: #FF9292;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    background-color: #FFE3E3;
+    font-size: 50px;
+    font-family: 'Marck Script', cursive;
+    padding: 10px;
+    color: #6F69AC;
+    border-radius: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Bad Script', cursive;
+    margin: 10px 30px;
+    width: 15%;
+    color: #FFE3E3;
+    border-radius: 40px;
+    border: none;
+}
+.play {
+    background-color: #6F69AC;
+}
+.pause {
+    background-color: #F037A5;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.block {
+    background-color: #FFE3E3; 
+    width: 210px;
+    height: 320px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 40px;
+}
+h3 {
+    color: #6F69AC;
+    font-size: 30px;
+    font-family: 'Bad Script', cursive;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.days, .hours, .minutes, .seconds {
+    font-size: 50px;
+    color: #F037A5 ;
+}
+.list {
+    background-color: #FFE3E3;
+    padding: 20px;
+    margin: 50px;
+    font-family: 'Bad Script', cursive;
+    color: #6F69AC;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+@media all and (max-width: 800px) {
+    .block {
+        width: 150px;
+        height: 280px;
+        margin-top: 50px;
+        border: none;
+        border-radius: 40px;
+    }
+}
+
+@media all and (max-width: 500px) {
+   
+    h1 {
+        font-size: 40px;
+        text-align: center;
+        padding: 2px;
+    }
+    .box {
+        display: flex;
+        justify-content:space-between;
+    }
+    button {
+        padding: 5px 10px;
+    font-size: 20px;
+    font-family: 'Bad Script', cursive;
+    margin: 10px 20px;
+    width: 35%;
+    }
+    .block {
+        width: 300px;
+        height: 200px;
+        margin-top: 15px;
+    }
+    .list {
+        padding: 3px;
+        font-size: 21px;
+        font-family: 'Bad Script', cursive;
+        color: #6F69AC;
+        margin: 10px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .days, .hours, .minutes, .seconds {
+        font-size: 35px;
+    }
+    
+}
+
